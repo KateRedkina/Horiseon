@@ -1,128 +1,217 @@
 * {
+    /*
+    The box-sizing property defines how the user should calculate the total width and height of an element 
+    i.e padding and borders, are to be included or not
+    border-box: In this mode, the width and height properties include content, padding, and borders
+    */
     box-sizing: border-box;
+    /* Sets padding on all sides to 0 */
     padding: 0;
+    /* Sets margin on all sides to 0 */
     margin: 0;
 }
 
 body {
+    /* Sets background color */
     background-color: #d9dcd6;
 }
 
 header {
+    /* Sets padding on all sides to 20px */
     padding: 20px;
+    /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Sets background color */
     background-color: #2a607c;
+    /* Sets font color */
     color: #ffffff;
 }
 
 header h1 {
+    /* Sets display of all elements to inline-block */
     display: inline-block;
+    /* Font-size property sets the size of a font */
     font-size: 48px;
 }
 
 header h1 .seo {
+    /* Sets font color */
     color: #d9dcd6;
 }
 
 header div {
+    /* Sets padding-top to 15px */
     padding-top: 15px;
+    /* Sets right margin to 20px */
     margin-right: 20px;
+    /*
+    The float property is used for positioning and formatting content.
+    right - The element floats to the right of its container
+    */
     float: right;
+    /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Font-size property sets the size of a font */
     font-size: 20px;
 }
 
 header div ul li {
+    /* Sets display of all elements to inline-block */
     display: inline-block;
+    /* Sets left margin to 25px */
     margin-left: 25px;
 }
 
 a {
+    /* Sets font color */
     color: #ffffff;
+    /* The text-decoration: none - is used to remove the underline from links */
     text-decoration: none;
 }
 
 p {
+    /* Font-size property sets the size of a font */
     font-size: 16px;
 }
 
 .hero {
+    /*Sets the height and width of the section */
     height: 800px;
     width: 100%;
+    /* Sets bottom margin to 25px */
     margin-bottom: 25px;
+    /*Link to the background image*/
     background-image: url("../images/digital-marketing-meeting.jpg");
+    /*
+    The background-size property sets the size of the element's background image
+    Scales the image to the smallest possible size to fill the container (that is: both its height and width completely cover the container), leaving no empty space.
+    */
     background-size: cover;
+    /*
+    The background-position property sets the starting position of a background image
+    The keyword value center - centers the image
+    */
     background-position: center;
 }
 
 .float-left {
+    /*
+    The float property is used for positioning and formatting content.
+    left - The element floats to the left of its container
+    */
     float: left;
+    /* Sets right margin to 25px */
     margin-right: 25px;
 }
 
 .float-right {
+    /*
+    The float property is used for positioning and formatting content.
+    right - The element floats to the right of its container
+    */
     float: right;
+    /* Sets left margin to 25px */
     margin-left: 25px;
 }
 
 .content {
+    /*Sets the width of the section */
     width: 75%;
+    /* Sets display of all elements to inline-block */
     display: inline-block;
+    /* Sets left margin to 20px */
     margin-left: 20px;
 }
 
 .content-block {
+    /* Sets bottom margin to 20px */
     margin-bottom: 20px;
+    /* Sets padding on all sides to 50px */
     padding: 50px;
+    /*Sets the height of the section */
     height: 300px;
+    /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Sets background color */
     background-color: #0072bb;
+    /* Sets font color */
     color: #ffffff;
 }
 
 .content-block img {
+    /*Sets the max height of the image*/
     max-height: 200px;
 }
 
 .content-block h2 {
+    /* Sets bottom margin to 20px */
     margin-bottom: 20px;
+    /* Font-size property sets the size of a font */
     font-size: 36px;
 }
 
 .benefits {
+    /* Sets right margin to 20px */
     margin-right: 20px;
+    /* Sets padding on all sides to 20px */
     padding: 20px;
+    /*
+    The clear property controls the flow next to floated elements.
+    both - The element is pushed below both left and right floated elements
+    */
     clear: both;
+    /*
+    The float property is used for positioning and formatting content.
+    right - The element floats to the right of its container
+    */
     float: right;
+    /*Sets the height and width of the section */
     width: 20%;
     height: 100%;
+    /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Sets background color */
     background-color: #2589bd;
 }
 
 .benefit {
+    /* Sets bottom margin to 32px */
     margin-bottom: 32px;
+    /* Sets font color */
     color: #ffffff;
 }
 
 .benefit h3 {
+    /* Sets bottom margin to 10px */
     margin-bottom: 10px;
+    /*Text-align property with the value 'center' - centered text */
     text-align: center;
 }
 
 .benefit img {
+    /* Sets display of all elements to block */
     display: block;
+    /* Sets top and bottom margin to 10px. Auto will center element */
     margin: 10px auto;
+    /*Sets the max wigth of images*/
     max-width: 150px;
 }
 
 footer {
+    /* Sets padding on all sides to 30px */
     padding: 30px;
+    /*
+    The clear property controls the flow next to floated elements.
+    both - The element is pushed below both left and right floated elements
+    */
     clear: both;
+    /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*Text-align property with the value 'center' - centered text */
     text-align: center;
 }
 
 footer h4 {
+    /* Font-size property sets the size of a font */
     font-size: 20px;
 }
